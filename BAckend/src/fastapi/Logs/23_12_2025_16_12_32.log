@@ -1,0 +1,32 @@
+[ 2025-12-23 16:12:32,910 ] root - INFO - server Started
+[ 2025-12-23 16:12:32,911 ] root - INFO - Loading Model
+[ 2025-12-23 16:12:32,915 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+[ 2025-12-23 16:13:53,905 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+[ 2025-12-23 16:13:54,266 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 307 0
+[ 2025-12-23 16:13:54,368 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/cardiffnlp/twitter-roberta-base-sentiment/daefdd1f6ae931839bce4d0f3db0a1a4265cd50f/config.json HTTP/1.1" 200 0
+[ 2025-12-23 16:13:54,738 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/tokenizer_config.json HTTP/1.1" 404 0
+[ 2025-12-23 16:13:55,096 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/cardiffnlp/twitter-roberta-base-sentiment/tree/main/additional_chat_templates?recursive=False&expand=False HTTP/1.1" 404 64
+[ 2025-12-23 16:13:55,432 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/cardiffnlp/twitter-roberta-base-sentiment/tree/main?recursive=True&expand=False HTTP/1.1" 200 1735
+[ 2025-12-23 16:13:55,761 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/vocab.json HTTP/1.1" 307 0
+[ 2025-12-23 16:13:55,863 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/cardiffnlp/twitter-roberta-base-sentiment/daefdd1f6ae931839bce4d0f3db0a1a4265cd50f/vocab.json HTTP/1.1" 200 0
+[ 2025-12-23 16:13:56,315 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/config.json HTTP/1.1" 307 0
+[ 2025-12-23 16:13:56,429 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /api/resolve-cache/models/cardiffnlp/twitter-roberta-base-sentiment/daefdd1f6ae931839bce4d0f3db0a1a4265cd50f/config.json HTTP/1.1" 200 0
+[ 2025-12-23 16:13:57,368 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/main/model.safetensors HTTP/1.1" 404 0
+[ 2025-12-23 16:13:57,378 ] urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+[ 2025-12-23 16:13:57,613 ] root - INFO - Model Loaded successfully
+[ 2025-12-23 16:13:57,614 ] root - INFO - starting server
+[ 2025-12-23 16:16:46,682 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/cardiffnlp/twitter-roberta-base-sentiment HTTP/1.1" 200 4587
+[ 2025-12-23 16:16:46,998 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/cardiffnlp/twitter-roberta-base-sentiment/commits/main HTTP/1.1" 200 3075
+[ 2025-12-23 16:16:47,324 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/cardiffnlp/twitter-roberta-base-sentiment/discussions?p=0 HTTP/1.1" 200 12789
+[ 2025-12-23 16:16:47,640 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "GET /api/models/cardiffnlp/twitter-roberta-base-sentiment/commits/refs%2Fpr%2F19 HTTP/1.1" 200 4040
+[ 2025-12-23 16:16:48,044 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/refs%2Fpr%2F19/model.safetensors.index.json HTTP/1.1" 404 0
+[ 2025-12-23 16:16:48,555 ] urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /cardiffnlp/twitter-roberta-base-sentiment/resolve/refs%2Fpr%2F19/model.safetensors HTTP/1.1" 302 0
+[ 2025-12-23 16:16:57,939 ] root - INFO - Entered preprocessing
+[ 2025-12-23 16:17:59,052 ] root - INFO - Entered preprocessing
+[ 2025-12-23 16:18:43,613 ] root - INFO - Entered preprocessing
+[ 2025-12-23 16:21:30,440 ] root - INFO - Entered preprocessing
+[ 2025-12-23 16:22:21,939 ] root - INFO - Entered preprocessing
+[ 2025-12-23 16:22:51,706 ] root - INFO - Entered preprocessing
+[ 2025-12-23 16:23:07,553 ] root - INFO - Entered preprocessing
+[ 2025-12-23 16:23:13,803 ] root - INFO - Entered preprocessing
+[ 2025-12-23 16:23:25,486 ] root - INFO - Entered preprocessing

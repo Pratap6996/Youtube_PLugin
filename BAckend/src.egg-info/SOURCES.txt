@@ -1,0 +1,14 @@
+pyproject.toml
+setup.py
+my_root/__init__.py
+my_root/root.py
+src/__init__.py
+src.egg-info/PKG-INFO
+src.egg-info/SOURCES.txt
+src.egg-info/dependency_links.txt
+src.egg-info/top_level.txt
+src/fastapi/__init__.py
+src/fastapi/request_model.py
+src/logger/__init__.py
+src/model/__init__.py
+src/model/model.py
